@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "heroku": "heroku create & git push heroku angular-pwa-final:master & heroku open",
     "preinstall": "npm install -g @angular/cli @angular/compiler-cli typescript",
     "postinstall": "ng build --configuration=production"
   },
